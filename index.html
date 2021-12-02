@@ -7,26 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
     />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="format-detection" content="email=no" />
+    <meta name="format-detection" content="email=yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="telephone=yes" />
     <meta name="renderer" content="webkit">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <title>[Resume of Ning Xi,Renmin University of China]西宁简历</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ning Xi, RUC 西宁/人大</title>
+    <link rel="shortcut icon" href="assets/images/cicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/typo.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <script>
-        function loading() {
+        function loaaing() {
             document.getElementsByClassName('avatar')[0].style.display = 'block';
             document.getElementsByClassName('loading')[0].style.display = 'none';
         }
     </script>
+    <style type="text/css">
+        ol{
+            list-style-type:decimal;
+            padding-left: 40px;
+            line-height: 30px;}
+    </style>
+    
 </head>
 
 <body>
@@ -36,30 +44,6 @@
     <article class="container">
         <section class="side" id="side">
 
-            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
-            <label class="switch" style="display: none;" onchange="switchFixed()">
-                <script type="text/javaScript">
-                    function switchFixed(){
-                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
-                        document.getElementById('side').style.position = value;
-                    }
-                </script>
-                <input id="cb" type="checkbox">
-                <span class="slider round"></span>
-            </label>
-            <style>
-                @media (min-width: 	750px){
-                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
-                    .switch input{display:none;}
-                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
-                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
-                    input:checked + .slider{background-color:#1abc9c;}
-                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
-                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
-                    .slider.round:before{border-radius:50%;}
-                }
-            </style>
-            <!-- 左侧固定开关，记得及时删除这段代码 End-->
 
             <!-- 个人肖像 -->
             <section class="me">
@@ -72,324 +56,339 @@
                         <span></span>
                     </div>
                     <!-- 头像照片 -->
-                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
+                    <img  class="avatar" src="assets/images/DSC.jpg" onload="loaaing()">
                 </section>
 
-                <h1 class="name">张大侠</h1>
-                <h4 class="info-job">前端开发工程师 / 杭州</h4>
+                <h1 class="name"><strong>Ning Xi 西宁</strong></h1>
+                <h4 class="info-job"><strong>Ph.D</strong> at <strong>Renmin University</strong> </h4>
+                <h4 class="info-job"><strong>Condensed Matter Theory</strong> </h4>
 
             </section>
 
-            <!-- 基本信息 -->
+            <!-- BIOGRAPHY -->
             <section class="profile info-unit">
                 <h2>
-                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>BIOGRAPHY</h2>
                 <hr/>
                 <ul>
-                    <li>
-                        <label>个人信息</label>
-                        <span>张大侠 / 男 / 24岁</span>
-                    </li>
-                    <li>
-                        <label>英语水平</label>
-                        <span>CET-6</span>
-                    </li>
-                    <li>
-                        <label>计算机水平</label>
-                        <span>软考中级</span>
-                    </li>
+                   <p> Mainly study on the <strong>numerical simulation</strong> of strongly correlated electron systems and new algorithms on quantum many-body physics, 
+                    especially the <strong>tensor-network</strong> algorithms on <strong>frustrated spin systems</strong> and <strong>quasi-1D</strong> syetems. </p>
+                    <p style="margin-top: 10px;">I am seeking a <strong>postdoc position</strong> in condensed matter theory, quantum computing, or other relevant fields.</p>
                 </ul>
             </section>
 
-            <!-- 联系方式 -->
+            <!--contact -->
             <section class="contact info-unit">
                 <h2>
-                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>Contact Me</h2>
                 <hr/>
                 <ul>
                     <li>
-                        <label>手机</label>
-                        <a href="tel:15168285219" target="_blank">151-6828-5219</a>
+                        <label><i class="fa fa-volume-control-phone" aria-hidden="true"></i></label>
+                        <a href="tel:13313323073" target="_blank">13313323073</a>
                     </li>
                     <li>
-                        <label>邮箱</label>
-                        <a href="mailto:ze.zh@hotmail.com" target="_blank">ze.zh@hotmail.com</a>
+                        <label><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
+                        <a href="mailto:xining@ruc.edu.cn" target="_blank">xining@ruc.edu.cn</a>
                     </li>
                     <li>
-                        <label>个人主页</label>
-                        <a href="http://0b11111110.com/" target="_blank">0b11111110.com/</a>
+                        <label><i class="fa fa-home" aria-hidden="true"></i></label>
+                        <a href="https://ceilingxi.github.io/" target="_blank">ceilingxi.github.io/</a>
                     </li>
                     <li>
-                        <label>Github</label>
-                        <a href="https://github.com/0b11111110" target="_blank">github.com/0b11111110</a>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 技能点 -->
-            <section class="skill info-unit">
-                <h2>
-                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <label>HTML</label>
-                        <progress value="90" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>CSS</label>
-                        <progress value="85" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>JavaScript</label>
-                        <progress value="85" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>React</label>
-                        <progress value="85" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>Node.js</label>
-                        <progress value="70" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>小程序</label>
-                        <progress value="70" max="100"></progress>
+                        <label>Resume</label>
+                        <a href="https://github.com/CeilingXi/CeilingXi.github.io/raw/main/Ceiling.pdf" target="_blank">Click here to downlod pdf</a>
                     </li>
                 </ul>
             </section>
 
             <section class="qrcode info-unit">
-                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
+                
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>My Wechat QR code</h2>
                 <hr/>
-                <img src="https://github.com/if2er/FeZaoDuKe-Collection/blob/master/ifeees.jpg?raw=true" style="width: 100%;" alt="">
+                <section class="portrait">
+                    <p style="text-align: center;">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img src="assets/images/wecod.jpg" style="width: 60%;float:middle;"alt=""/>
+                    </p>
+                </section>
             </section>
-
-            <!-- 技术栈 -->
-            <!-- <div class="stack info-unit">
-                    <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
-                    <hr/>
-                    <ul>
-                        <li>
-                            <label>前端</label>
-                            <span>React、jQuery、微信小程序、Bootstrap、SASS、LESS</span>
-                        </li>
-                        <li>
-                            <label>后端</label>
-                            <span>Node.js、MySQL、MongoDB、WordPress、ThinkPHP</span>
-                        </li>
-                        <li>
-                            <label>其他</label>
-                            <span>Git、SVN、Markdown</span>
-                        </li>
-                    </ul>
-                </div> -->
         </section>
 
         <section class="main">
 
-            <!-- 教育经历 -->
-            <section class="edu info-unit">
-                <h2>
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <h3>
-                            <span>XXXX大学 - XXX专业（硕士）</span>
-                            <time>201X.9-201X.7</time>
-                        </h3>
-                        <p>专业排名
-                            <mark>X/XX</mark>，期间发表国际会议英文摘要X篇，国内核心期刊文章X篇（其中第一作者X篇），获XXX，XXX2次，XXX2次。(此处根据自身情况填写，可以突出自己的亮点，或者跟求职目标相关的内容)</p>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>XXXX大学 - XXX专业（本科）</span>
-                            <time>201X.9-201X.7</time>
-                        </h3>
-                        <p>专业排名
-                            <mark>X/XX</mark>，期间发表国内核心期刊文章X篇，三等奖学金X次。</p>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 工作经历 -->
-            <section class="work info-unit">
-                <h2>
-                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历</h2>
-                <hr/>
-                <ul>
-                    <li>
-                        <h3>
-                            <span>[经历1]XX公司－前端开发工程师（实习）</span>
-                            <time>2016.X 至 2017.X</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>深度参与XX项目迭代XX的前端开发工作，独立承担并完成XX、XX、XXXX等功能点的开发，主要维护并修复XX、XX、XX等功能点bug若干。项目采用技术栈
-                                <mark>React+React Router+Node.js+SASS</mark>，实现
-                                <mark>前后端完全分离</mark>。</li>
-                            <li>配合UI和后端，根据产品需求提供H5页面嵌入到后台模板，要求
-                                <mark>移动端显示正常</mark>。</li>
-                            <li>主要参与XXXXXXX的静态页面开发工作，要求
-                                <mark>在支付宝环境下完全兼容</mark>。</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>[经历2]XX－前端开发工程师（实习）</span>
-                            <time>20XX.10-20XX.7</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>深度参与公司主线产品「XXXX」的前端开发工作，完成帖子快捷回复、
-                                <mark>全站图片懒加载</mark>、活动banner、帖子管理（使用Yii框架）等功能。项目采用技术栈phpWind+NAMP。
-                                <a href="http://itsay.tech/162/" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li>
-                            <li>主要参与公司产品「XXXX」的前端开发工作，实现接入微博、微信、QQ等
-                                <mark>第三方账号登录</mark>等功能。项目采用技术栈WordPress+NAMP。</li>
-                            <li>活动页面的开发（七夕活动、抽奖活动以及承接外包页面）。</li>
-                            <li>论坛
-                                <mark>图片增量备份</mark>（CentOS+vsftpd+crontab）
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 项目经验 -->
+            <!-- RESEARCH INTERESTS -->
             <section class="project info-unit">
                 <h2>
-                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目</h2>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>RESEARCH INTERESTS</h2>
+                <hr/>
+                <h3>Including but not limited to</h3>
+                <ul>
+                    <li>
+                        <h3>
+                            <span><strong>Numerical study on strongly correlated electron systems</strong></span>
+                        <ul class="info-content">
+                            <li>Quantum criticality and emergent phenomena</li>
+                            <li>Exotic quantum phases and transitions in frustrated spin systems</li>
+                            <li>Dynamic properties of quantum spin systems in low dimensions</li>
+                            <li>Optimal solutions of nonlinear self-consistent or variational equations</li>
+                            <li>Quantum entanglement and universality</li>
+                        </ul>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Theoretical analysis of novel experiments</strong></span>
+                        <ul class="info-content">
+                            <li>Numerical simulation of novel experiments on quantum magnets</li>
+                            <li>Construction of effective microscopic models</li>
+                            <li>Parameter estimation and model validation based on experimental results</li>
+                            <li>Mean-field understanding and effective mapping of novel experiments</li>
+                        </ul>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Developing new algorithms on quantum many-body physics</strong></span>
+                        <ul class="info-content">
+                            <li>New tensor-network algorithms on two-dimensional spin systems</li>
+                            <li>New algorithms on searching global optima or optimum parameters</li>
+                            <li>New algorithms based on mature projects or packages in engineering</li>
+                            <li>Other relevant algorithms on frustrated systems, fermion systems, or concerned systems</li>
+                        </ul>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
+
+             <!-- SKILLS -->
+             <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>SKILLS</h2>
                 <hr/>
                 <ul>
                     <li>
                         <h3>
-                            <span>[项目1]医学科学数据管理与共享平台</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
+                            <span><strong>Infinite tensor-network algorithms on ground states of 2D quantum spin systems</strong></span>
                         <ul class="info-content">
-                            <li>技术栈：ThinkPHP+MongoDB+Axure</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现多类型多来源医学科学数据的提交、管理和共享
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]同 2 位同专业同学一起
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]完成从
-                                <mark>“调研-设计-实现-文档”</mark>等工作，主要负责系统原型、功能框架及数据提交流程、元数据及源数据的管理与共享方案的设计以及系统开发等工作
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品最终取得第三届共享杯国家级竞赛“一等奖” （2/2000）</li>
+                            <li>Projected entangled simplex state (<strong><a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.011025" target="_blank">PESS</a></strong>) construction of frustrated spin systems</li>
+                            <li>Infinite time-evolution algorithms, including <strong><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.090603" target="_blank">SU</a></strong>,
+                                 <strong><a href="https://arxiv.org/abs/1110.4362" target="_blank">CU</a></strong>, and <strong><a href="https://link.aps.org/doi/10.1103/PhysRevB.92.035142" target="_blank">FU</a></strong></li>
+                            <li><a href="https://link.aps.org/doi/10.1103/PhysRevX.9.031041" target="_blank">Variational optimization</a> of infinite tensor network states</li>
+                            <li>Contracting the infinite networks by <strong><a href="https://link.aps.org/doi/10.1103/PhysRevB.94.035133" target="_blank">CTMRG</a></strong> and boundary <strong><a href="https://link.aps.org/doi/10.1103/PhysRevLett.118.137202" target="_blank">MPS</a></strong></li>
+                            <li>Unique techniques on <strong><a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.011025" target="_blank">PESS</a></strong> construction</li>
                         </ul>
+                        </h3>
                     </li>
                     <li>
                         <h3>
-                            <span>[项目2]肿瘤流行病数据可视化</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
+                            <span><strong>Time-evolution algorithms on quasi-1D quantum spin systems</strong></span>
                         <ul class="info-content">
-                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]与 1 位同学
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
-                                <mark>D3.js</mark> 和
-                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
-                            </li>
+                            <li>Ground-state properties based on <strong><a href="https://arxiv.org/abs/1008.3477" target="_blank">MPS</a></strong></li>
+                            <li>Dynamical properties based on <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.077201" target="_blank">real-time-evolution</a> algorithms</li>
+                            <li>Thermodynamic properties based on <strong><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.045110" target="_blank">MPO</a></strong></li>
                         </ul>
+                        </h3>
                     </li>
                     <li>
                         <h3>
-                            <span>[项目3]肿瘤流行病数据可视化</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
+                            <span><strong>Optimization algorithms and fitting skills</strong></span>
                         <ul class="info-content">
-                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]与 1 位同学
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
-                                <mark>D3.js</mark> 和
-                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析功能
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
-                            </li>
+                            <li>Optimal solutions of nonlinear equations</li>
+                            <li>Model parameters’ fitting based on experimental results</li>
+                            <li>Fitting of critical exponents and behaviors</li>
+        
                         </ul>
+                        </h3>
                     </li>
                     <li>
                         <h3>
-                            <span>[项目4]肿瘤流行病数据可视化</span>
-                            <span class="link">
-                                <a href="#" target="_blank">Demo</a>
-                            </span>
-                            <time>201X.X-201X.X</time>
-                        </h3>
+                            <span><strong>Basic skills for Ph.D students in the area of condensed matter theory</strong></span>
                         <ul class="info-content">
-                            <li>技术栈：HTML 5+D3.js+ECharts+MySQL</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [目标]实现常见肿瘤流行病数据多维度可视化展示、数据透视及分析
-                                <br/>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [团队]与 1 位
-                                <br/>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]分析项目需求，清洗并整理相关数据(扩展第三方知识组织系统和 Google trends 数据)，并用
-                                <mark>D3.js</mark> 和
-                                <mark>ECharts</mark> 进行图形化展示以及实现简易自动分析 功能
-                                <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]作品取得第二届共享杯国家级竞赛“特等奖”(1/1500)
-                            </li>
+                            <li>Basic mean-field approximation</li>
+                            <li>Basic transformations or mapping</li>
+                            <li>Basic critical scaling theory and dimensional analysis</li>
+                            <li>Basic symmetry analysis of Hamiltonian, Lagrangian, and experimental materials</li>
+        
                         </ul>
+                        </h3>
                     </li>
-
+                    <li>
+                        <h3>
+                            <span><strong>Coding & programming</strong></span>
+                        <ul class="info-content">
+                            <li>Skilled in <i>MATLAB</i> and <i>Julia</i></li>
+                            <li>Acquainted with <i>Python</i>, <i>Fortran</i>, <i>Mathematica</i>, and <i>C</i> language</li>
+                        </ul>
+                        </h3>
+                    </li>
                 </ul>
             </section>
 
-            <!-- 自我评价 -->
+            <!-- EDUCATION -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>EDUCATION</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span><strong>Doctor of Science |</strong> <i>Theoretical physics</i> <strong>- Renmin University of China</strong></span>
+                            <time>2016.9-2021.6</time>
+                        
+                        <p>Advisors: <strong><a href="http://www.phys.ruc.edu.cn/info/1147/1442.htm" target="_blank">Rong Yu 俞榕</a> </strong>& <strong><a href="http://www.phys.ruc.edu.cn/info/1185/1544.htm" target="_blank">Z. Y. Xie 谢志远</a></strong></p>
+                    </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Bachelor of Science |</strong><i> Optical information science and technology</i><strong>- Hebei University</strong></span>
+                            <time>2012.9-2016.6</time>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- PUBLICATIONS -->
             <section class="work info-unit">
                 <h2>
-                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
+                    <i class="fa fa-bookmark" aria-hidden="true"></i>PUBLICATIONS</h2>
                 <hr/>
-                <p>[此处如果有一些能够量化的、且比较个性的指标会有加分，比如喜爱跑步坚持夜跑200小时或者200km等]
-                    <span class="mark-txt">“多静多思考，反省不张扬”</span>是我给自己总结的“十字箴言”，鞭策自己做人既不能以己度人，也不以人观己，要脚踏实地做事，坚持自己的梦想和本心。</p>
+                <h3>
+                <ol>
+                    <li>                        
+                        <strong>Ning Xi</strong>, Hongyu Chen, Z. Y. Xie, and Rong Yu, First-order transition between the plaquette valence bond solid
+                            and antiferromagnetic phases of the Shastry-Sutherland model, <a href="https://arxiv.org/abs/2111.07368" target="_blank">arXiv:2111.07368</a>    
+                    </li>
+
+                    <li>                        
+                        <strong>Ning Xi</strong>, and Rong Yu, Dynamical signatures of deconfined quantum critical points in one dimension, <i>In
+                            Preparation</i>    
+                    </li>
+
+                    <li>                        
+                        <strong>Ning Xi</strong>, Xiao Wang, Jianda Wu, and Rong Yu, Robust evidence for emergent E<sub>8</sub> spectra in the CoNb<sub>2</sub>O<sub>6</sub>, <i>In
+                            Preparation</i>    
+                    </li>
+                    <li>                        
+                        Yuchen Fan, <strong>Ning Xi</strong>, Changle Liu, Rong Yu, and Bruce Normand,  Criticality and quantum critical end point in
+                        the fully frustrated bilayer Heisenberg antiferromagnetic model under a magnetic field, <i>In
+                            Preparation</i>    
+                    </li>
+                    <li>                        
+                        Yi Cui, Haiyuan Zou, <strong>Ning Xi</strong>, Zhangzhen He, Y. X. Yang, L. Shu, G. H. Zhang, Z. Hu, T. Chen, Rong Yu, Jianda
+                        Wu, and Weiqiang Yu, Quantum Criticality of the Ising-like Screw Chain Antiferromagnet SrCo<sub>2</sub>V<sub>2</sub>O<sub>8</sub> in a
+                        Transverse Magnetic Field, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.067203" target="_blank">Phys. Rev. Lett. 123, 067203(2019)</a>    
+                    </li>
+                </ol>
+            </h3>
+            <!-- PRESENTATIONS -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-comments" aria-hidden="true"></i>PRESENTATIONS</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <p><strong>Ground State Phase Diagram of a J<sub>1</sub>-J<sub>2</sub>-Q model on the Shastry-Sutherland Lattice – a Tensor Network Study</strong></p>
+           
+                        <span>talk presented at <a href="http://bssqm.csp.escience.cn/dct/page/1" target="_blank"> 2019 Beijing Summer School on Quantum Magnetism</a></span>
+                        <time>2019.8 @ Yanqi Lake</time>
+                    </h3>
+                    </li>
+                </ul>
             </section>
+
+            <!-- HONORS AND AWARDS -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-navicon" aria-hidden="true"></i>HONORS AND AWARDS</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span><strong>“Challenge Cup”</strong></span>
+                        </h3>
+                        <ul class="info-content">
+                            <li><a href="http://www.tiaozhanbei.net/" target="_blank">National Undergraduate Extracurricular Academic Science and Technology Works Competition
+                                </a></li>
+                        </ul>
+                        <h3>
+                            <span><i>Silver-award work</i></span>
+                            <time><a href="http://www.tiaozhanbei.net/article/15614/" target="_blank">2013</a></time>
+                        </h3>
+                        
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Mathematical Contest in Modeling (MCM)</strong></span>
+                        </h3>
+                        <ul class="info-content">
+                            <li><a href="https://www.comap.com/undergraduate/contests/" target="_blank">– International Contest by the Consortium for Mathematics and Its Applications (COMAP)
+                                </a></li>
+                        </ul>
+                        <h3>
+                            <span><i>Honorable Mention</i></span>
+                            <time><a href="https://www.comap-math.com/mcm/2015Certs/37010.pdf">2015</a> & <a href="https://www.comap-math.com/mcm/2016Certs/48738.pdf">2016</a></time>
+                        </h3>
+                        
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>National Encouragement Scholarship</strong></span>
+                            <time>2013</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Excellent graduate Student of Renmin University of China </strong></span>
+                            <time>2017</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Merit Student of Renmin University of China</strong></span>
+                            <time>2021</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Various Excellent-Student Awards at Hebei University</strong></span>
+                            <time>2012 - 2016</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span><strong>Awards in Various Undergraduate Competitions at Hebei Province</strong></span>
+                            <time>2013 - 2016</time>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
+
         </section>
     </article>
 
 
 
     <footer class="footer">
-        <p>© 2017 张大侠.文档最后更新时间为
-            <time>2018年06月20日</time>.</p>
+        <p> 2021 Ning Xi. Ref: <a href="https://gitee.com/itsay/resume" target="_blank">https://gitee.com/itsay/resume</a>
+            <time>12.02.2021</time>.</p>
     </footer>
 
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href=" https://github.com/CeilingXi/CeilingXi.github.io/raw/main/Ceiling.pdf" target="_blank">PDF version</a>
+            </li>
+        </ul>
+    </aside>
 
     <script src="./assets/js/index.js"></script>
 </body>

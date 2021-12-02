@@ -1,5 +1,6 @@
+[![star](https://gitee.com/itsay/resume/badge/star.svg?theme=white)](https://gitee.com/itsay/resume/stargazers)    [![fork](https://gitee.com/itsay/resume/badge/fork.svg?theme=white)](https://gitee.com/itsay/resume/members)
 
-# 个人简历模板，原模板请参考：
+# 个人简历模板
 
 [http://itsay.gitee.io/resume](http://itsay.gitee.io/resume)
 
